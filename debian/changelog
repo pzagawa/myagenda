@@ -1,0 +1,13 @@
+myagenda (1.2-0ubuntu1) precise; urgency=low
+
+  * Only single application instance allowed.
+    Useful if you run MyAgenda at startup. Another execution brings main
+    window to top (or sets its icon urgency), returns message and custom
+    exit code EX_INSTANCE_RUNNING=1
+
+  * Launcher quicklist added. New menu items:
+    - “New Note” - opens dialog directly with current date.
+    - “Show Note: “...”” - shows newest note edit dialog.
+    - “Clear Reminder: “...”” - clears newest reminder.
+
+ -- Piotr Zagawa <piotr.zagawa@gmail.com>  Wed, 08 Aug 2012 17:10:37 +0200

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="database" projectFiles="true">
+        <itemPath>src/database/SHA1.cpp</itemPath>
+        <itemPath>src/database/SHA1.h</itemPath>
+        <itemPath>src/database/SqlCommon.cpp</itemPath>
+        <itemPath>src/database/SqlCommon.h</itemPath>
+        <itemPath>src/database/SqlDatabase.cpp</itemPath>
+        <itemPath>src/database/SqlDatabase.h</itemPath>
+        <itemPath>src/database/SqlField.cpp</itemPath>
+        <itemPath>src/database/SqlField.h</itemPath>
+        <itemPath>src/database/SqlFieldSet.cpp</itemPath>
+        <itemPath>src/database/SqlFieldSet.h</itemPath>
+        <itemPath>src/database/SqlRecord.cpp</itemPath>
+        <itemPath>src/database/SqlRecord.h</itemPath>
+        <itemPath>src/database/SqlRecordSet.cpp</itemPath>
+        <itemPath>src/database/SqlRecordSet.h</itemPath>
+        <itemPath>src/database/SqlTable.cpp</itemPath>
+        <itemPath>src/database/SqlTable.h</itemPath>
+        <itemPath>src/database/SqlValue.cpp</itemPath>
+        <itemPath>src/database/SqlValue.h</itemPath>
+        <itemPath>src/database/_AUTHOR.TXT</itemPath>
+        <itemPath>src/database/_LICENSE.TXT</itemPath>
+        <itemPath>src/database/_ReadMe.html</itemPath>
+        <itemPath>src/database/sqlite3.c</itemPath>
+        <itemPath>src/database/sqlite3.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="dataManager" projectFiles="true">
+        <itemPath>src/dataManager/DataManager.cpp</itemPath>
+        <itemPath>src/dataManager/DataManager.h</itemPath>
+        <itemPath>src/dataManager/DataTypes.cpp</itemPath>
+        <itemPath>src/dataManager/DataTypes.h</itemPath>
+        <itemPath>src/dataManager/NoteInfoItem.cpp</itemPath>
+        <itemPath>src/dataManager/NoteInfoItem.h</itemPath>
+        <itemPath>src/dataManager/NoteInfoSummary.cpp</itemPath>
+        <itemPath>src/dataManager/NoteInfoSummary.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="monthView" projectFiles="true">
+        <itemPath>src/monthView/MonthView.cpp</itemPath>
+        <itemPath>src/monthView/MonthView.h</itemPath>
+        <itemPath>src/monthView/MonthViewDayData.cpp</itemPath>
+        <itemPath>src/monthView/MonthViewDayData.h</itemPath>
+        <itemPath>src/monthView/MonthViewDayRect.cpp</itemPath>
+        <itemPath>src/monthView/MonthViewDayRect.h</itemPath>
+        <itemPath>src/monthView/MonthViewWeekDayRect.cpp</itemPath>
+        <itemPath>src/monthView/MonthViewWeekDayRect.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="notesView" projectFiles="true">
+        <itemPath>src/notesView/NoteItemData.cpp</itemPath>
+        <itemPath>src/notesView/NoteItemData.h</itemPath>
+        <itemPath>src/notesView/NoteItemView.cpp</itemPath>
+        <itemPath>src/notesView/NoteItemView.h</itemPath>
+        <itemPath>src/notesView/NoteListView.cpp</itemPath>
+        <itemPath>src/notesView/NoteListView.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="ui" projectFiles="true">
+        <itemPath>src/ui/AboutDialog.cpp</itemPath>
+        <itemPath>src/ui/AboutDialog.h</itemPath>
+        <itemPath>src/ui/CustomInfoBar.cpp</itemPath>
+        <itemPath>src/ui/CustomInfoBar.h</itemPath>
+        <itemPath>src/ui/CustomLabel.cpp</itemPath>
+        <itemPath>src/ui/CustomLabel.h</itemPath>
+        <itemPath>src/ui/CustomSeparator.cpp</itemPath>
+        <itemPath>src/ui/CustomSeparator.h</itemPath>
+        <itemPath>src/ui/EditNoteDialog.cpp</itemPath>
+        <itemPath>src/ui/EditNoteDialog.h</itemPath>
+        <itemPath>src/ui/LauncherQuicklist.cpp</itemPath>
+        <itemPath>src/ui/LauncherQuicklist.h</itemPath>
+        <itemPath>src/ui/MainWindow.cpp</itemPath>
+        <itemPath>src/ui/MainWindow.h</itemPath>
+        <itemPath>src/ui/NotificationManager.cpp</itemPath>
+        <itemPath>src/ui/NotificationManager.h</itemPath>
+        <itemPath>src/ui/TitleButton.cpp</itemPath>
+        <itemPath>src/ui/TitleButton.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/DateTimeValue.cpp</itemPath>
+      <itemPath>src/DateTimeValue.h</itemPath>
+      <itemPath>src/Exception.cpp</itemPath>
+      <itemPath>src/Exception.h</itemPath>
+      <itemPath>src/Lang.h</itemPath>
+      <itemPath>src/MessageDispatcher.h</itemPath>
+      <itemPath>src/MyAgendaApp.cpp</itemPath>
+      <itemPath>src/MyAgendaApp.h</itemPath>
+      <itemPath>src/Preferences.cpp</itemPath>
+      <itemPath>src/Preferences.h</itemPath>
+      <itemPath>src/Resources.cpp</itemPath>
+      <itemPath>src/Resources.h</itemPath>
+      <itemPath>src/Utils.cpp</itemPath>
+      <itemPath>src/Utils.h</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>src/database</pElem>
+            <pElem>src/dataManager</pElem>
+            <pElem>src/monthView</pElem>
+            <pElem>src/notesView</pElem>
+            <pElem>src/ui</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/myagenda</output>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs gtkmm-3.0`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs unity`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs libnotify`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>src/database</pElem>
+            <pElem>src/dataManager</pElem>
+            <pElem>src/monthView</pElem>
+            <pElem>src/notesView</pElem>
+            <pElem>src/ui</pElem>
+            <pElem>src</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs gtkmm-3.0`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs unity`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs libnotify`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

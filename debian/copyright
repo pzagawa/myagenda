@@ -1,0 +1,6 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: myagenda
+
+Files: *
+Copyright: 2012 Piotr Zagawa <piotr.zagawa@gmail.com>
+License: gpl3

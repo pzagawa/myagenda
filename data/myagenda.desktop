@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MyAgenda
+Comment=Save your notes, control your time
+Encoding=UTF-8
+Exec=/opt/extras.ubuntu.com/myagenda/bin/myagenda
+Icon=/usr/share/icons/hicolor/scalable/apps/myagenda.svg
+Terminal=false
+Categories=Application;Utility;
+StartupNotify=true
+

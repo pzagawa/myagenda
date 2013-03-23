@@ -1,0 +1,6 @@
+dist/Release/GNU-Linux-x86/myagenda /opt/extras.ubuntu.com/myagenda/bin
+
+data/ui/* /opt/extras.ubuntu.com/myagenda/ui
+
+data/myagenda.desktop /usr/share/applications
+data/myagenda.svg /usr/share/icons/hicolor/scalable/apps

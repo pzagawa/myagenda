@@ -1,0 +1,13 @@
+Source: myagenda
+Section: utils
+Priority: extra
+Maintainer: Piotr Zagawa <piotr.zagawa@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), pkg-config (>= 0.26), libgtkmm-3.0-dev (>= 3.0), libunity-dev (>= 5.0), libnotify-dev (> 0.7)
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/~piotr-zagawa/+archive/ma2
+
+Package: myagenda
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Manage your agenda with notes and reminders.
+
