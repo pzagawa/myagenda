@@ -4,5 +4,7 @@ It was written in C++ with GTK/gtkmm, using Netbeans C++ IDE on Ubuntu.
 
 MyAgenda can run on most Linux distros with gtk installed.
 
+There are also debian files for packaging included. Modify them to create your own package.
+
 Some screenshots on Wiki home page:
 https://github.com/pzagawa/myagenda/wiki
