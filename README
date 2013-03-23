@@ -6,5 +6,5 @@ MyAgenda can run on most Linux distros with gtk installed.
 
 There are also debian files for packaging included. Modify them to create your own package.
 
-Some screenshots on Wiki home page:
+Some screenshots:
 https://github.com/pzagawa/myagenda/wiki
