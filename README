@@ -8,3 +8,6 @@ There are also debian files for packaging included. Modify them to create your o
 
 Some screenshots:
 https://github.com/pzagawa/myagenda/wiki
+
+Debian/Ubuntu binary packages:
+https://launchpad.net/~piotr-zagawa/+archive/ma2/+packages
